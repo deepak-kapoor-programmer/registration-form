@@ -3,7 +3,7 @@ import { useFormik } from "formik";
 import { useDispatch, useSelector } from "react-redux";
 
 import { setPersonal, setStep } from "../../../../redux/formSlice";
-import * as Yup from "Yup"
+import * as Yup from "yup"
 export default function Personal() {
     const dispatch = useDispatch();
     const PersonalData = useSelector((state) => state.form.personalInfo);

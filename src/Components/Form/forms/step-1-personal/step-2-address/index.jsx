@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
 import { useDispatch, useSelector } from "react-redux";
-import * as Yup from "Yup"
+import * as Yup from "yup"
 
 import { setaddress, setStep } from "../../../../../redux/formSlice";
 export default function Address() {
